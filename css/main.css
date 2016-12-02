@@ -1,47 +1,94 @@
-ul {
-	list-style-type: none;
-	background-color: ##F7F8E0;
-	margin: 20px;
-	padding: 50px;
-	overflow: hidden;
-	background-color: #000000;
+body {
+	font-family: arial;
 }
 
-li {
-	display: block;
-	float: left;
+h1{
+	font-family: courier;
+	font-size: 200px;
+	text-align: center;
+	color: gray;
+}
+
+h2{
+	font-family: times;
+	color: blue;
+}
+
+/* HEADER */
+#logo img{
+	width: 100px;
+}
+
+/* MENU */
+.menu {
+	background-color: #333;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.menu li {
+	list-style-type: none;
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
 	padding: 20px;
-	background-color: #000000;
+	cursor: pointer;
+}
+
+.menu li:link{
+
+
+}
+
+.menu li:hover{
+	background-color: peru;
+}
+
+/* HERO IMAGE */
+#hero{
+	width: 100%;
+}
+
+#hero img{
+	width: 100%;
+}
+
+/* CONTENEDOR CAJAS */
+.contenedor-cajas{
+	background-color: #84ffff;
+	width: 100%;
 	text-align: center;
 }
 
-li a:hover:not(.active){
-	background-color: aqua;
+/* CAJAS */
 
+.caja {
+	width: 30%;
+	background-color: peru;
+	display: inline-block;
+	text-align: left;
+	margin: 1%;
 }
 
-a {
-	color: peru;
-	text-decoration: none;
+.caja:first-child {
+	margin-left: 2%;
 }
 
-a:hover {
-	color: red;
+.caja:last-child {
+	margin-left: 2%;
 }
 
-a:visited {
-	color: yellow;
-}
-
-nav {
+.caja img{
 	width: 100%;
-	display: block;
+	background-color: peru;
 }
 
-.botones {
-	background-color: black;
-}
-
-.botones:hover {
-	background-color: yellow;
+/* FOOTER */
+.footer-class{
+	width: 100%;
+	height: 100px;
+	background-color: gray;
+	font-color: #fff;
+	text-align: center;
+	padding-top: 25px;
 }
